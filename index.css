@@ -1,0 +1,119 @@
+body {
+	background: url(img/prlx.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Courier New', monospace;
+	color: rgb(255, 255, 255);
+	font-size: 1.5em;
+}
+body * {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+#preload {
+	display: none;
+	height: 0;
+	width: 0;
+}
+#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 900px;
+	height: 700px;
+	padding: 20px;
+	background: url(img/blc.png);
+	margin: auto;
+	border-radius: 4px;
+	border: 4px inset white;
+	box-shadow: 0 0 30px #000000;
+	text-align: center;
+}
+#inner {
+	padding: 20px;
+	margin: 50px;
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 20px;
+	border: 1px solid #fff;
+	font-size: 1.5em;
+}
+.links {
+	padding-left: 0;
+	line-height: 1.5em;
+	margin: 0;
+	text-align: left;
+}
+#about{
+	position: relative;
+	height: 35%;
+    width: 35%;
+	float: center;
+	left: 32%;
+}
+#characters{
+	position: relative;
+	height: 32%;
+   width: 30%;
+   float: left;
+   bottom: 24%;
+}
+#projects{
+	position: relative;
+	height: 32%;
+   width: 32%;
+   float: right;
+   bottom: 24%;
+}
+#horse{
+	position: relative;
+	height: 32%;
+	right: 1%;
+	left: 0.10%;
+	top: 52px;
+
+}
+  .eye{
+	position: absolute;
+	top: 57.7%;
+	right: 51.8%;
+	z-index: 99;
+  /*   background:#ccc; */
+  }
+  .pupil{
+	position:relative;
+  /*   transform:  rotate(390deg); */
+  /*   transform-origin: 20px center; */
+  }
+  #link{
+	position: absolute;
+	float: left;
+	z-index: 99;
+	bottom: -80px;
+  }
+  #aud{
+	position: absolute;
+	left: 92%;
+	font-size: 12px;
+	text-align: center;
+  }
+  #music{
+	position: absolute;
+	text-align: left;
+	left: 550px;
+	z-index: 88;
+	bottom: -80px;
+	font-size: 20px;
+	white-space: nowrap;
+  }
+  #desktop{
+	position: absolute;
+	text-align: right;
+	right: 1%;
+	bottom: 1%;
+	z-index: 77;
+	font-size: 15px;
+	white-space: nowrap;
+
+  }

@@ -1,0 +1,104 @@
+body {
+	background: url(img/prlx.gif);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Courier New', monospace;
+	color: white;
+	font-size: 1.5em;
+}
+body * {
+  max-width: 200%;
+  box-sizing: border-box;
+}
+#preload {
+	display: none;
+	height: 0;
+	width: 0;
+}
+#container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 65%;
+	padding: -1px;
+	background-color: #000000;
+	margin: auto;
+	border-radius: 4px;
+	border: 4px double rgb(255, 255, 255);
+	box-shadow: 0 0 30px #000000;
+	text-align: center;
+}
+#inner {
+	padding: 20px;
+	margin: 50px;
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 20px;
+	border: 1px solid #fff;
+	font-size: 1.5em;
+}
+#text{
+	color:#e08040;
+	text-align: left;
+}
+#inf{
+	color:#e08040;
+	position: absolute;
+	left: 650px;
+	right: 50px;
+	text-align: left;
+	font-size: 20px;
+}
+.nav{
+	display: flex;
+	text-align: left;
+}
+img{
+    top: 200px;
+	margin: 6px;
+}
+#Alfred{
+	position: relative;
+	bottom: -15px;
+	right: 300px;
+}
+#inf2{
+	position: absolute;
+	left: 990px;
+	text-align: left;
+	top: 290px;
+	bottom: 5px;
+	font-size: 10px;
+}
+#alf{
+	font-size: 40px;
+}
+#push{
+	position: absolute;
+	z-index: 99;
+}
+#nya{
+	font-size: 19px;
+}
+#mh{
+	font-size: 17px;
+}
+#mhname{
+	font-size: 35px;
+}
+.column {
+	float: left;
+	width: 50%;
+	padding: 5px;
+	text-align: center;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+	text-align: center;
+	right: 100px;
+  }

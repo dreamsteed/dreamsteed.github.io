@@ -1,0 +1,86 @@
+body {
+	background: url(img/prlx.gif);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: sans-serif;
+	color: white;
+	font-size: 1.5em;
+}
+body * {
+  max-width: 200%;
+  box-sizing: border-box;
+}
+#preload {
+	display: none;
+	height: 0;
+	width: 0;
+}
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 850px;
+	padding: 20px;
+	background-color: #000000;
+	margin: auto;
+	border-radius: 4px;
+	border: 4px double white;
+	box-shadow: 0 0 30px #000000;
+	text-align: center;
+}
+#inner {
+	padding: 20px;
+	margin: 50px;
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 20px;
+	border: 1px solid #fff;
+	font-size: 1.5em;
+}
+#text{
+	text-align: center;
+}
+#inf{
+	text-align: left;
+}
+.nav{
+	display: flex;
+	text-align: center;
+}
+img{
+	margin: 6px;
+}
+#uptext{
+	position: relative;
+	top: 90px;
+}
+#button{
+	position: relative;
+}
+.column {
+    display: inline;
+	width: 33.33%;
+	padding: 5px;
+	text-align: center;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+	text-align: center;
+  }
+  .tds{
+	position: relative;
+    left: 130px;
+  }
+  .dly{
+    position: relative;
+    left: 100px;
+  }
+  .both{
+    position: relative;
+    right: 221px;
+  }

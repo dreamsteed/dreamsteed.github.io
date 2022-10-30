@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+        <!-- The style.css file allows you to change the look of your web pages.
+             If you include the next line in all your web pages, they will all share the same look.
+             This makes it easier to make new pages for your site. -->
+        <link href="index.css" rel="stylesheet" type="text/css" media="all">
+      </head>
+      <body>
+        <style>
+          body, html {
+    cursor: url(img/ay.png), pointer;
+}
+        </style>
+        <style type = "text/css">  
+          a:link {color: #ffffff}  
+          a:visited {color: #ffffff}  
+          a:hover {color: #ff0000}  
+          a:active {color: #d80202}  
+       </style> 
+       <div id="aud">
+        <a href="javascript:playclip();"><img src="img/audio.png" height="60px"></a>
+        <p>click here for music</p>
+       </div>
+        <div id="container">
+          <svg width="69" height="70" class="eye">
+            <circle cx="34" cy="34" r="18" fill="white" class="eyeball" />
+            <circle cx="34" cy="34" r="14" fill="black" class="pupil" />
+          </svg>
+          <script>
+            let eyeBall = document.querySelector(".eyeball"),
+    pupil = document.querySelector(".pupil"),
+    eyeArea = eyeBall.getBoundingClientRect(),
+    pupilArea = pupil.getBoundingClientRect(),
+    R = eyeArea.width/1,
+    r = pupilArea.width/1,
+    centerX = eyeArea.left + R,
+    centerY = eyeArea.top + R;
+
+document.addEventListener("mousemove", (e)=>{
+  let x = e.clientX - centerX,
+      y = e.clientY - centerY,
+      theta = Math.atan2(y,x),
+      angle = theta*180/Math.PI + 360;
+  
+  
+  pupil.style.transform = `translateX(${R - r +"px"}) rotate(${angle + "deg"})`;
+  pupil.style.transformOrigin = `${r +"px"} center`;
+});
+          </script>
+          <img src="img/steeddddd.png" title="HORSE WOAH" alt="HE TOOK MY SOUL" height="86px">
+          <div id="about">
+            <a href="about"><img src="img/abt.png"></a>
+          </div>
+          <div id="characters">
+            <a href="characters"><img src="img/char.png"></a>
+          </div>
+          <div id="projects">
+            <a href="projects"><img src="img/prjc.png"></a>
+          </div>
+          <div id="horse">
+            <script type="text/javascript" src="sound-onclick.js"></script>
+            <a href="javascript:playclip();"><img src="img/hons2.png" height="300px"></a>
+            <div id="link">
+              <a href="credits"><b style="text-align:center;">CREDITS</b></a>
+            </div>
+            <div id="music">
+              <b>♫ website2 - voxelectrica</b>
+            </div>
+            <audio>
+              <source src="audio/website.ogg" type="audio/ogg">
+              </audio>
+              <div id="sounddiv"><bgsound id="sound"></div>
+          </div>
+          </div>
+          </div>
+        </div>
+        <br>
+        <div id="link">
+        </div>
+        <div id="desktop">
+          <b>This website is best experienced on desktop.</b>
+        </div> 
+        </div>
+      </body>
+    </html>
