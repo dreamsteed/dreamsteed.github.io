@@ -22,7 +22,12 @@
           a:active {color: #d80202}  
        </style> 
        <div id="aud">
-        <a href="javascript:playclip();"><img src="img/audio.png" height="60px"></a>
+        <script type="text/javascript" src="sound-onclick.js"></script>
+            <a href="javascript:playclip();"><img src="/img/audio.png" height="300px"></a>
+            <audio loop>
+                <source src="/audio/website.ogg" type="audio/ogg">
+                </audio>
+                <div id="sounddiv"><bgsound id="sound"></div>
         <p>click here for music</p>
        </div>
         <div id="container">
@@ -62,17 +67,12 @@ document.addEventListener("mousemove", (e)=>{
             <a href="projects"><img src="img/prjc.png"></a>
           </div>
           <div id="horse">
-            <script type="text/javascript" src="sound-onclick.js"></script>
-            <a href="javascript:playclip();"><img src="img/hons2.png" height="300px"></a>
             <div id="link">
               <a href="credits"><b style="text-align:center;">CREDITS</b></a>
             </div>
             <div id="music">
               <b>♫ website2 - voxelectrica</b>
             </div>
-            <audio>
-              <source src="audio/website.ogg" type="audio/ogg">
-              </audio>
               <div id="sounddiv"><bgsound id="sound"></div>
           </div>
           </div>
