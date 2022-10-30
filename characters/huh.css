@@ -1,0 +1,18 @@
+body {
+	background: url(img/prlx.gif);
+    background-repeat: no-repeat;
+	background-size: cover;
+    background-attachment: fixed;
+	font-family: sans-serif;
+	color: white;
+	font-size: 1.5em;}
+    .center {
+        position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, -50%);
+        margin: auto;
+        display: block;
+        width: 200px;
+        
+      }
