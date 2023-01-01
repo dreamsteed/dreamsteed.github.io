@@ -91,6 +91,7 @@ body * {
 	float: left;
 	z-index: 99;
 	bottom: -80px;
+	white-space: nowrap
   }
   #aud{
 	position: absolute;
