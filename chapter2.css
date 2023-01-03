@@ -18,8 +18,8 @@ body * {
 }
 #container {
 	position: relative;
-    height: 4000px;
-	width: 850px;
+	width: 850px; 
+    height: 4100px;
 	padding: 20px;
 	background-color: #000000;
 	margin: auto;
