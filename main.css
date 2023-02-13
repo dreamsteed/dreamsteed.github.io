@@ -18,7 +18,7 @@ body * {
 }
 .container {
 	position: relative;
-	width: 1000px;
+	width: 95%;
 	padding: 20px;
 	background-color: #000000;
 	margin: auto;
@@ -73,4 +73,38 @@ img{
   #push{
 	position: absolute;
 	z-index: 99;
+}
+
+.about-main-container img
+{
+	margin: auto;
+}
+
+.about-main-container a
+{
+	display: block;
+}
+
+@media screen and (max-width: 600px) {
+	.about-main-container img
+	{
+		width: 100px;
+		height: auto;
+	}
+
+	.about-main-container a
+	{
+		font-size: 14px;
+	}
+
+	.about-main-container p
+	{
+		font-size: 13px;
+	}
+
+	.about-main-container p b
+	{
+		font-weight: 300 !important;
+		word-break: break-word;
+	}
 }
