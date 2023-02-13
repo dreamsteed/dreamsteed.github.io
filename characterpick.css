@@ -87,14 +87,14 @@ img{
   }
   .dolleye-container
   {
-	top: 80%;
+	top: 55%;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 800px) {
 	.dolleye-container
 	{
 		width: 95%;
-		top: 145%;
+		top: 80%;
 		height: auto;
 		margin-bottom: 50px;
 	}
