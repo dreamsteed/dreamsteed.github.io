@@ -63,10 +63,31 @@ body * {
         left: 10px;
     }
     .tab { margin-left: 40px; }
-    #push{
-        position: absolute;
-    }
     #left{
         position: relative;
         float: left;
     }
+
+@media screen and (max-width: 600px) {
+    #container
+    {
+        width: 95%;
+    }
+
+    p, b
+    {
+        font-size: 15px;
+    }
+
+    #container img
+    {
+        width: 130px;
+        height: auto;
+    }
+
+    #push img
+    {
+        width: 200px;
+        height: auto !important;
+    }
+}

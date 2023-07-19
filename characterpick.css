@@ -85,3 +85,42 @@ img{
     position: relative;
     right: 221px;
   }
+  .dolleye-container
+  {
+	top: 55%;
+  }
+
+  @media screen and (max-width: 800px) {
+	.dolleye-container
+	{
+		width: 95%;
+		top: 80%;
+		height: auto;
+		margin-bottom: 50px;
+	}
+
+	.dolleye-container .column
+	{
+		width: 33%;
+		height: 150px;
+		float: left;
+	}
+
+	.dolleye-container .column img
+	{
+		width: 100% !important;
+		height: 100% !important;
+		object-fit: contain !important;
+	}
+  }
+
+  @media screen and (max-width: 430px) {
+	.dolleye-container
+	{
+		top: 110%;
+	}
+	.dolleye-container .column
+	{
+		height: 120px;
+	}
+  }

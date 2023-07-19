@@ -95,9 +95,14 @@ body * {
   }
   #aud{
 	position: absolute;
-	left: 92%;
+	right: 0;
 	font-size: 12px;
 	text-align: center;
+  }
+  #aud img
+  {
+	width: 150px;
+	height: auto;
   }
   #music{
 	position: absolute;

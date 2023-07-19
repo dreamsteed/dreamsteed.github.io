@@ -18,13 +18,10 @@ body * {
 }
 .container {
 	position: relative;
-	top: 0;
-	left: 50%;
-	transform: translate(-50%, 0);
-	width: 850px;
+	margin: auto;
+	width: 70%;
 	padding: 20px;
 	background-color: #000000;
-	margin: 56px 0;
 	border-radius: 4px;
 	border: 4px double white;
 	box-shadow: 0 0 30px #000000;
@@ -76,3 +73,23 @@ img{
 	position: relative;
 	right: 40px;
   }
+
+@media screen and (max-width: 600px)
+{
+	.container
+	{
+		width: 95%;
+	}
+
+	.back_img
+	{
+		width: 200px;
+		height: auto;
+	}
+
+	.column img
+	{
+		width: 100%;
+		height: auto !important;
+	}
+}
