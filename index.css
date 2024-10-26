@@ -72,7 +72,12 @@ body * {
 	right: 1%;
 	left: 0.10%;
 	top: 52px;
-
+}
+#patreon{
+	position: relative;
+	float: right;
+	right: -76%;
+	width: 5%;
 }
   .eye{
 	position: absolute;
@@ -107,10 +112,9 @@ body * {
   #music{
 	position: absolute;
 	text-align: left;
-	left: 550px;
+	left: 490px;
 	z-index: 88;
 	bottom: -80px;
-	font-size: 20px;
 	white-space: nowrap;
   }
   #desktop{
