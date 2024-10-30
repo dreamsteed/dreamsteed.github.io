@@ -73,10 +73,15 @@ body * {
 	left: 0.10%;
 	top: 52px;
 }
+#news{
+	position: relative;
+	float: left;
+	width: 5%;
+}
 #patreon{
 	position: relative;
 	float: right;
-	right: -76%;
+	right: -50%;
 	width: 5%;
 }
   .eye{
